@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ad65fcc6bcd49a4fa6bd791cb3ca222, type: 3}
+  m_Name: Ballista
+  m_EditorClassIdentifier: 
+  _bulletPrefab: {fileID: 6554977564148836659, guid: 18f4385178a8d154487806a3fc169d1a, type: 3}
+  _name: Ballista
+  _bulletspeed: 3
+  _price: 10
+  _cooldown: 1
+  _range: 3
+  _damage: 0.5
