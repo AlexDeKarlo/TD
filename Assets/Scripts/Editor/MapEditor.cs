@@ -48,9 +48,6 @@ public class MapEditor : EditorWindow
         _startHP = EditorGUILayout.IntField("Start Base HP", _startHP);
 
         _wafesCount = EditorGUILayout.IntField("Wafes Count", _wafesCount);
-        _mapSize = EditorGUILayout.Vector2IntField("Wafes Count", _mapSize);
-
-        EditorGUILayout.LabelField($"");
         if (_wafesCount < 0) _wafesCount = 0;
         if (_mobID == null || _wafesCount != _mobID.Length)
         {
@@ -75,6 +72,10 @@ public class MapEditor : EditorWindow
                 EditorGUILayout.LabelField($"");
             }
         }
+
+        _mapSize = EditorGUILayout.Vector2IntField("Map Size", _mapSize);
+
+        EditorGUILayout.LabelField($"");
 
         for (int x = 0; x < _mapSizeTemp.x; x++)
         {
